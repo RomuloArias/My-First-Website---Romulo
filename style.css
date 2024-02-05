@@ -1,0 +1,97 @@
+body {
+  padding: 30px;
+  text-align: center;
+  font-family:"Workbench", sans-serif;
+}
+
+h1 {
+font-size : 30px;
+color: rgba(231, 166, 25, 0.897);
+}
+
+h2 {
+ font-size : 25px;
+ color: rgba(231, 166, 25, 0.897);
+}
+
+p {
+  font-size: 15px;
+   color: rgba(231, 166, 25, 0.897);
+}
+
+ul {
+list-style: none;
+padding-left: 0px;
+display:inline-block;
+}
+
+a {
+color: rgb(0, 0, 0);
+font-weight: bold;
+transition: 0.3s ease;
+text-decoration: none;
+}
+
+a:hover {
+background-color: #bbb1b186;
+border-radius: 5px;
+}
+
+.img-circle {
+width: 200px;
+height: 200px;
+border-radius: 25%
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.pink-card{
+  background-color: rgba(162, 59, 231, 0.644);
+  padding: 40px;
+  box-shadow: 0px 10px 30px #206b10a4;
+  border-radius: 30px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-site {
+  background-color:rgba(231, 166, 25, 0.897);
+  color: rgba(7, 5, 1, 0.63);
+  border-radius: 2px;
+  font-size: 40px;
+}
+
+.background-image {
+background-image: url("images/80s-retro.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.icon {
+  font-size: 40px;
+  color: rgba(231, 166, 25, 0.897);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
