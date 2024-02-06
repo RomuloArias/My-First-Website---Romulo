@@ -3,6 +3,10 @@
     transform: rotateY(360deg);
   }
 }
+.coin {
+  width:200px;
+  height:200px;
+}
     .coin:active {
         animation: spin 2s linear infinite;
     }
